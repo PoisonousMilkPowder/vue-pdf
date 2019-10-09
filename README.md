@@ -1,4 +1,19 @@
 # vue-pdf
+
+[原作者](https://github.com/FranckFreiburger)
+
+本项目基于[https://github.com/FranckFreiburger/vue-pdf.git](https://github.com/FranckFreiburger/vue-pdf.git)
+
+改动目的是为了显示pdf文件自带的水印
+
+改动点：
+
+	PDFJS.getDocument({
+	  url: PDFURL,
+	  cMapUrl: CMAP_URL,
+	  cMapPacked: true,
+	});
+
 vue.js pdf viewer
 
 ## Install
