@@ -13,7 +13,7 @@ export default function (PDFJS) {
 		if (typeof (src) === 'string')
 			source = {
 				url: src,
-				cMapUrl: '../node_modules/pdfjs-dist/cmaps/',
+				cMapUrl: 'https://unpkg.com/pdfjs-dist@2.0.489/cmaps/',
 				cMapPacked: true
 			};
 		else if (src instanceof Uint8Array)
